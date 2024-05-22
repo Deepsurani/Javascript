@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="card">
+            <h1 class="main-heading">Registration</h1>
+            <hr class="divider" />
+
+            <div class="card-header">
+                <h2>Personal Information</h2>
+            </div>
+            <div class="name">
+                <label>Name</label>
+            </div>
+            <div class="card-body">
+                <div class="left">
+                    <div class="left-col1">
+                        <div class="form-group">
+                            <select class="form-control" name="drop1" id="drop1">
+                                <option value="Mr.">Mr.</option>
+                                <option value="Ms.">Ms.</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Gender</label>
+                            <div class="rdo-group">
+                                <input type="radio" class="rdo-control" name="rdo1" id="rdo1" value="Male" />
+                                <label for="rdo1">Male</label>
+                                <input class="rdo-control" type="radio" name="rdo1" id="rdo2" value="Female">
+                                <label for="rdo1">Female</label>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="left-col2">
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="FirstName" name="txt10" id="txt10">
+                        </div>
+                        <div class="form-group">
+                            <label for="txt2">Castes</label>
+                            <select class="form-control" name="drop2" id="drop2">
+                                <option >---Select---</option>
+                                <option value="obc">obc</option>
+                                <option value="Open">Open</option>
+                            </select>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="left-middle">
+                        <div class="form-group">
+                            <label for="drop4">Date of Birth</label>
+                        </div>
+                        <div class="left-mid-1">
+                            <div class="form-group">
+                                <select class="form-control" name="drop3" id="drop3">
+                                    <option value="Select Date">Select Date</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="left-mid-1">
+                            <div class="form-group">
+                                <select class="form-control" name="drop4" id="drop4">
+                                    <option value="Select Year">Select Year</option>
+                                    <option value="2021">2021</option>
+                                    <option value="2022">2022</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="left-mid-1">
+                            <div class="form-group">
+                                <select class="form-control" name="drop5" id="drop5">
+                                    <option value="Select Month">Select Month</option>
+                                    <option value="January">January</option>
+                                    <option value="Feb">Feb</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="left-bottom">
+                        <div class="left-bot-1">
+                            <div class="form-group">
+                                <label for="txt4">Address</label>
+                                <textarea class="form-control" name="txt1" id="txt1">Address</textarea>
+                            </div>
+                        </div>
+                        <div class="left-bot-1">
+                            <div class="form-group">
+                                <label for="txt5">Anual Income(Your/Parents)</label>
+                                <textarea class="form-control" name="txt2" id="txt2" placeholder="Income"></textarea>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="left-last">
+                        <div class="left-last-1">
+                            <div class="form-group">
+                                <label for="txt6">Pincode</label>
+                                <input type="number" class="form-control" placeholder="Pincode" name="txt3" id="txt3" />
+                            </div>
+                        </div>
+                        <div class="left-last-2">
+                            <div class="form-group">
+                                <label for="txt7">Payment Option</label>
+                                <select class="form-control" name="drop6" id="drop6">
+                                    <option value="Select">Select</option>
+                                    <option value="UPi Payment">UPI Payment</option>
+                                    <option value="Net Banking">Net Banking</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="right-col-1">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="MiddleName" name="txt4" id="txt4" />
+                        </div>
+                    </div>
+                    <div class="right-col-2">
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="LastName" name="txt5" id="txt5" />
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="form-group">
+                        <label for="txt3">Email</label>
+                        <input type="Email" class="form-control" placeholder="Email" name="txt6" id="txt6">
+                    </div>
+                    <div class="form-group">
+                        <label for="txt4">Mobile No.</label>
+                        <input type="number" class="form-control" placeholder="number" name="txt7" id="txt7">
+                    </div>
+                    <div class="form-group">
+                        <label for="txt5">LandlineNumber</label>
+                        <input type="number" class="form-control" placeholder="LandlineNumber" name="txt8" id="txt8">
+                    </div>
+                    <div class="right-col-1">
+                        <div class="form-group">
+                            <label for="drop1">State</label>
+                            <select class="form-control" name="drop7" id="drop7">
+                                <option value="Select">Select</option>
+                                <option value="Gujarat">Gujarat</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="right-col-2">
+                        <div class="form-group">
+                            <label for="drop2">City</label>
+                            <select class="form-control" name="drop8" id="drop8">
+                                <option value="Select">Select</option>
+                                <option value="Ahmedabad">Ahmedabad</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="right-bot-1">
+                        <div class="form-group">
+                            <label>Emplayment Status</label>
+                            <div class="rdo-group">
+                                <input type="radio" class="rdo-control" name="rdo1" id="rdo3" /><label
+                                    for="rdo1">Yes</label>
+                                <input type="radio" class="rdo-control" name="rdo1" id="rdo4" /><label
+                                    for="rdo1">No</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-bot-1">
+                        <div class="form-group">
+                            <label for="txt">Work Experience</label>
+                            <input type="text" class="form-control" placeholder="0" name="txt9" id="txt9" />
+                        </div>
+                    </div>
+
+                </div>
+                <div class="clear"></div>
+                <div class="footer">
+                    <button onclick="btn1()" type="button">2 value</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
+    <script src="input.js"></script>
+</body>
+
+</html>

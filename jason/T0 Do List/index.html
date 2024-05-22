@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="grid.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="card">
+            <div class="card-header">
+                <h3>To Do List</h3>
+            </div>
+            <div class="card-body">
+                <input type="text" name="txt1" id="txt1">
+            </div>
+            <div class="card-footer">
+                <button onclick="btn1Click('ToDoBoxContainer')" id="btnAdd" type="button" name="btnAdd">Add To Do</button>
+
+            </div>
+        </div>
+        <div class="box">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card1">
+                        <div class="card-box">
+                            <h3>Work Box</h3>
+                        </div>
+                        <div class="box-body" id="ToDoBoxContainer">
+                            <!-- <div class="mainbox">
+                                <label for="lbl1">0</label>
+                                <hr>
+                                <button onclick="btn2Click()" id="btnEdit" type="button" name="btnEdit">Edit</button>
+                                <button onclick="btn1Click()" id="btnDone" type="button" name="btnDone">Done</button>
+                                <hr>
+
+
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card1">
+                        <div class="card-box">
+                            <h3>Completed Task</h3>
+                        </div>
+                        <div class="box-body" id="CompleteBoxContainer">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card1">
+                        <div class="card-box">
+                            <h3>Trash Box</h3>
+                        </div>
+                        <div class="box-body" id="TrashBoxContiner">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="todo.js"></script>
+</body>
+
+</html>

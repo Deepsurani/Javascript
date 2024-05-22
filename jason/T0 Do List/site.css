@@ -1,0 +1,90 @@
+:root
+{
+    --skyblue-color:rgb(4, 95, 131);
+    --skyblue-dark-color:rgb(9, 58, 78);
+    --skyblue-light-color:rgb(149, 217, 243);
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.main
+{
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+}
+/* card blue */
+.card
+{
+    border: 1px solid var(--skyblue-color);
+    margin: 20px 0;
+}
+.card .card-header
+{
+    background-color: var(--skyblue-color);
+    padding: 10px;
+    border-bottom: 2px solid var(--skyblue-dark-color);
+    color: #fff;
+}
+.card .card-body
+{
+    padding: 20px;
+}
+.card .card-body>input
+{
+    width: 100%;
+}
+.card .card-footer
+{
+    padding: 5px 10px;
+    background-color: var(--skyblue-light-color);
+    border-top: 1px solid var(--skyblue-color);
+}
+.card .card-footer>button
+{
+    background: #92929e;
+    font-size: 30px;
+}
+/* box */
+
+.card1 .card-box
+{
+    font-size: 30px;
+    background-color: red;
+}
+.card1 .box-body
+{
+    padding: 20px;
+    height: 300px;
+    border: 2px solid red;
+}
+/* mainbox */
+.mainbox
+{
+    padding: 20px;
+    background: #edebeb;
+    margin-bottom: 20px;
+    box-shadow: 7px 11px 10px 0px black;
+}
+.mainbox label
+{
+    display: block;
+    margin-bottom: 20px;
+}
+.mainbox>hr{
+    margin: 10px 0;
+}
+.mainbox>button{
+  font-size: 20px;
+  margin-left: 5px;
+  color: #ffffff;
+  background: rgb(98, 98, 166);
+}

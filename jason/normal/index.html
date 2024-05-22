@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <label for="txt1">name</label>
+        <input type="text" name="txt1" id="txt1">
+    </div>
+    <div>
+        <label for="txt2">Email</label>
+        <input type="email" required name="txt2" id="txt2">
+    </div>
+    <div>
+        <label for="txt3">mobile</label>
+        <input type="tel"  name="txt3" id="txt3">
+    </div>
+    <div>
+        <label for="txt3">Date</label>
+        <input type="date" name="txt4" id="txt4">
+    </div>
+        <button onclick="SendData()" id="btn1" name="btn1" type="button">Submit</button>
+    </div>
+    <br><br><br>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Mobile</th>
+                <th>Date</th>
+            </tr>
+
+        </thead>
+        <tbody id="tbdTag">
+
+        </tbody>
+    </table>
+
+    <script src="index.js"></script>
+</body>
+</html>

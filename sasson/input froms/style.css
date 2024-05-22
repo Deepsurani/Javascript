@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.name {
+    padding: 10px 0 0 20px;
+}
+
+.form-group {
+    padding: 0 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+.main {
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.divider {
+    width: 1000px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card .card-header {
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
+
+.card .card-body {
+    padding: 15px 5px;
+}
+
+
+.left {
+    width: 48%;
+    float: left;
+    margin-right: 10px;
+}
+
+.left-col1 {
+    float: left;
+    width: 50%;
+}
+
+.left-col2 {
+    float: left;
+    width: 50%;
+}
+
+.left-middle {
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.left-mid-1 {
+    float: left;
+    width: 31%;
+    margin: 11px;
+    margin-left: 0px;
+}
+
+
+.left-bottom {
+    float: left;
+    width: 100%;
+}
+
+
+.left-last {
+    float: left;
+    width: 100%;
+}
+
+.left-last-1 {
+    float: left;
+    width: 50%;
+
+}
+
+.left-last-2 {
+    float: right;
+    width: 50%;
+}
+
+/* Form Group */
+
+.form-group>label {
+    padding: 10px 0px;
+    display: block;
+    margin: 5px;
+}
+
+.form-group>label::after {
+    content: " : ";
+}
+
+.form-group .form-control {
+    padding: 10px;
+    width: 100%;
+
+}
+
+.form-group .form-control {
+    padding: 10px;
+    width: 100%;
+}
+
+.right {
+    width: 48%;
+    float: left;
+    margin-left: 10px;
+}
+
+
+.right-col-1 {
+    float: left;
+    width: 50%;
+}
+
+.right-col-2 {
+    float: right;
+    width: 50%;
+}
+
+.right-bot-1 {
+    float: left;
+    width: 50%;
+}
+.footer{
+    /* width: 100%; */
+    background-color: blue;
+    margin: 20px 0 0 0;
+}
+.footer button{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: rgba(52, 52, 160, 0.622);
+}

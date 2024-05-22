@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table id="tbl1" border="1" align="center" width="1000">
+        <thead>
+            <tr height="40">
+                <th>No</th>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Qty</th>
+                <th>Total</th>
+                <th>
+                    <button onclick="btn1Click()" id="btnAdd" type="button" name="btnAdd">Add</button>
+                </th>
+            </tr>
+        </thead>
+        <tbody id="tbdTag" align="center">
+        </tbody>
+        <tfoot>
+            <tr height="40">
+                <th colspan="4" align="right">Total</th>
+                <th colspan="2">
+                    <label id="lblGrandTotal"></label>
+                </th>
+            </tr>
+            <tr height="40">
+                <th colspan="4" align="right">Discount</th>
+                <th colspan="2">
+                    <label id="lblDiscount"></label>
+
+                </th>
+            </tr>
+            <tr height="40">
+                <th colspan="4" align="right">NetTotal</th>
+                <th colspan="2">
+                    <label id="lblNetAmount"></label>
+
+                </th>
+            </tr>
+        </tfoot>
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>

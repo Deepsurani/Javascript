@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="lod()">
+    <select name="drop" id="drop1" Name="drop1" onchange="btn1()">
+        <option value="">Select</option>
+        <option value="Single">Single</option>
+        <option value="Multiple">Multiple</option>
+    </select>
+    <button id="btn1" name="btn1" type="button" onclick="btn1()">Change</button><br><br>
+    <label onload="lod()" id="lbl1"></label><br><br>
+    <div id="Single">
+        <input type="checkbox" id="chk1" name="chk1" value="Golf">
+        <label for="chk1">Golf</label>
+        <input type="checkbox" id="chk2" name="chk1" value="Hockey">
+        <label for="chk2">Hockey</label>
+        <input type="checkbox" id="chk3" name="chk1" value="Football">
+        <label for="chk3">Football</label>
+        <input type="checkbox" id="chk4" name="chk1" value="Cricket">
+        <label for="chk4">Cricket</label>
+    </div>
+    <div id="Multiple">
+        <input type="radio" id="rdo1" name="rdo1" value="Hello">
+        <label for="rdo1">Hello</label>
+        <input type="radio" id="rdo2" name="rdo1" value="By">
+        <label for="rdo2">By</label>
+        <input type="radio" id="rdo3" name="rdo1" value="Tata">
+        <label for="rdo3">Tata</label>
+        <input type="radio" id="rdo4" name="rdo1" value="Khatam">
+        <label for="rdo4">Khatam</label>
+    </div>
+    <script src="exam.js"></script>
+</body>
+</html>

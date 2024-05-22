@@ -1,0 +1,163 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root
+{
+    --skyblue-color:rgb(9, 86, 117);
+    --skyblue-dark-color:rgb(4, 40, 55);
+    --skyblue-light-color:rgb(99, 172, 200);
+
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.main
+{
+    width: 1050px;
+    margin: auto;
+    margin-top: 50px;
+}
+/* Card */
+.card
+{
+    border: 1px solid var(--skyblue-color);
+}
+.card .card-header
+{
+    background-color: var(--skyblue-color);
+    padding: 10px;
+    border-bottom: 2px solid var(--skyblue-dark-color);
+    color: #fff;
+}
+.card .card-body
+{
+    padding: 20px;
+}
+.card .card-footer
+{
+    padding: 5px 100px;
+    background-color: var(--skyblue-light-color);
+    border-top: 1px solid var(--skyblue-color);
+    
+}
+.card-footer button
+{
+    background: blue;
+    height: 30px;
+    color: #fff;
+    /* padding: 10px 10PX 10PX 10PX; */
+    font-size: 20PX;
+    cursor: pointer;
+}
+.databody
+{
+    background-color: var(--skyblue-color);
+    padding: 10px;
+    border-bottom: 2px solid var(--skyblue-dark-color);
+    color: #fff; 
+
+}
+.content
+{
+    padding: 20px;
+}
+/* form control */
+.formgroup
+{
+    margin-bottom:20px;
+}
+.formgroup>label
+{
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 5px;
+}
+.form-group .formcontrol
+{
+    width: 220px;
+    padding: 5px;
+    outline-color: var(--skyblue-color);
+    vertical-align: middle;
+    resize: none;
+}
+.formgroup .formcontrol:focus
+{
+    box-shadow: 0px 0px 10px 0px var(--skyblue-color); ;
+}
+.formgroup .rdio
+{
+    display: inline-block;
+}
+
+    </style>
+</head>
+
+<body id="bodyid">
+    <div class="main">
+        <div class="card" id="regForm">
+            <div class="card-header">
+                <h2>Registration Now</h2>
+            </div>
+            <div class="card-body">
+                <div class="formgroup">
+                    <label for="txt1">Name</label>
+                    <input type="text" name="txt1" id="txt1" class="formcontrol">
+                </div>
+
+                <div class="formgroup">
+                    <label for="txt2">Email</label>
+                    <input type="text" name="txt2" id="txt2" class="formcontrol">
+                </div>
+
+                <div class="formgroup">
+                    <label for="txt6">City</label>
+                    <select name="drop1" id="drop1" class="formcontrol">
+                        <option value="Hiamtnagar">Hiamtnagar</option>
+                        <option value="Idar">Idar</option>
+                    </select>
+                </div>
+                <div class="formgroup">
+                    <label for="">Gender</label>
+                    <div class="rdio">
+                        <input type="radio" name="rdo1" id="rdo1" value="Male">
+                        <label for="rdo1">Male</label>
+                        <input type="radio" name="rdo1" id="rdo2" value="female">
+                        <label for="rdo2">Female</label>
+                    </div>
+                </div>
+
+                <div class="formgroup">
+                    <label for="txt3">Address</label>
+                    <textarea name="txt3" id="txt3" class="formcontrol"></textarea>
+                </div>
+
+                <div class="formgroup">
+                    <label for="txt4">Date of Birth</label>
+                    <input type="date" id="dt1" name="dt1">
+                </div>
+
+            </div>
+            <div class="card-footer">
+                <button onclick="btn1Click()" id="btn1" name="btn2">Register Now</button>
+
+            </div>
+        </div>
+    </div>
+    <script src="home.js"></script>
+</body>
+
+</html>
