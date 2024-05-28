@@ -53,3 +53,21 @@ var b3= document.createElement("input")
         }
  }
 document.getElementById("box").appendChild(b3)
+var b4 = document.createElement("input");
+    b4.type = "button";
+    b4.name = "btn5";
+    b4.id = "btn5";
+    b4.value = "<";
+    b4.onclick = function () {
+
+        var opt1 = document.createElement("option");
+        opt1.value = List2.value;
+        opt1.innerHTML = List2.value;
+
+        List1.appendChild(opt1);
+        var Drop2 = document.getElementById("List2");
+        var OpDrop2 = Drop2.options[Drop2.selectedIndex];
+        Drop2.removeChild(OpDrop2);
+
+    };
+    document.getElementById("box").appendChild(b4);
