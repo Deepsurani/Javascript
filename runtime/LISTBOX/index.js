@@ -15,13 +15,34 @@ b2.id = "btn2";
 b2.value = ">";
 b2.onclick = function () {
     var opt1 = document.createElement("option");
-    opt1.value = list1.value;
-    opt1.innerHTML = list1.value;
-
+    opt1.value = List1.value;
+    opt1.innerHTML = List1.value;
+    var list2= document.getElementById("List2");
     list2.appendChild(opt1);
-    var Drop1 = document.getElementById("list1");
+    var Drop1 = document.getElementById("List1");
     var OpDrop1 = Drop1.options[Drop1.selectedIndex];
     Drop1.removeChild(OpDrop1);
-    console.log(OpDrop1);
+
 }
+
 document.getElementById("box").appendChild(b2);
+var b3 = document.createElement("input");
+b3.type = "button";
+b3.name = "btn3";
+b3.id = "btn3";
+b3.value = ">>";
+b3.onclick = function () {
+    var Options = document.querySelectorAll("#List1>option");
+    for (let i = 0; i < Options.length; i++) {
+        var SingleOption = Options[i];
+        document.getElementById("List2").appendChild(SingleOption);
+    }
+}
+document.getElementById("box").appendChild(b3);
+
+var b3= document.createElement("input")
+ b3.type="button"
+ b3.value="<";
+ b3.id="btn3";
+ b3.name="btn3"
+document.getElementById("box").appendChild(b3)
