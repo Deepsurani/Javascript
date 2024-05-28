@@ -42,7 +42,14 @@ document.getElementById("box").appendChild(b3);
 
 var b3= document.createElement("input")
  b3.type="button"
- b3.value="<";
+ b3.value="<<";
  b3.id="btn3";
  b3.name="btn3"
+ b3.onclick=function () {
+    var Options = document.querySelectorAll("#List2>option");
+        for (let i = 0; i < Options.length; i++) {
+            var SingleOption = Options[i];
+            document.getElementById("List1").appendChild(SingleOption);
+        }
+ }
 document.getElementById("box").appendChild(b3)
