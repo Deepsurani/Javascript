@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+   font-family: inherit;
+}
+.container
+{
+     margin: auto;
+     width: 1100px;
+}
+.list
+{
+    margin-top: 100px;
+    border: 2px solid #0f0beb;
+}
+.container .list .header
+{
+    height: 60px;
+    border-bottom: 1px solid #000;
+    background-color: #0f0beb;
+}
+.container h1
+{
+    padding-left: 10px;
+    color: white;
+}
+.container h2
+{
+    padding: 10px;
+      color: white;
+      font-size: 30px;
+}
+.container .list .listinput
+{
+    padding: 15px;
+    color: black;
+}
+.container .list .listinput .input-form
+{
+     padding: 15px;
+     width: 100%;
+}
+.container .list .footer
+{
+    height: 60px;
+    border-bottom: 1px solid #000;
+    background-color: #0094ff;
+    margin: 0px;
+    border-top: 2px solid #0f0beb;
+}
+.container .list .footer .button1
+{
+    color: white;
+    background-color: #0f0beb;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+}
+.container .list .footer .button1:hover
+{
+    background-color: aliceblue;
+    color: black;
+}
+.container .form-box
+{
+    display: flex;
+}
+.container .form-box .workbox1,
+.workbox2,
+.workbox3
+{
+    width: 32%;
+    display: inline-block;
+    margin-top: 50px;
+    border: 2px solid red;
+    margin-right: 12px;
+}
+.container .work-header1,
+.work-header2,
+.work-header3
+{
+    height: 60px;
+    border-bottom: 1px solid #000;
+    background-color: red;
+}
+.container .workinbox
+{
+    padding: 0px 20px;
+}
+.container .workbox1 .inputdiv
+{
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-shadow: 2px 3px 4px 4px black;
+    background-color: #0dd8fd52;
+}
+.container .workbox2 .inputdiv
+{
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-shadow: 2px 3px 4px 4px black;
+    background-color: #0dd8fd52;
+}
+.container .workbox3 .inputdiv
+{
+    padding: 15px;
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    box-shadow: 2px 3px 4px 4px black;
+    background-color: #0dd8fd52;
+}
+.container .workbox1 div>label
+{
+    padding: 10px;
+}
+.container .workbox2 div>label
+{
+    padding: 10px;  
+}
+.container .workbox3 div>label
+{
+    padding: 10px;
+}
+
+.btn2{
+    background-color: #036288;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    border: 2px solid #024661;
+    padding: 10px 20px;
+    margin-right: 5px;
+}
